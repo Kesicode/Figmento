@@ -29,12 +29,20 @@ concurrency:
 permissions:
   contents: read
 
+env:
+  NEXT_TELEMETRY_DISABLED: 1
+  # Dummy DATABASE_URL for the lint-unit job (no real DB used —
+  # postinstall/prisma-generate only needs the schema file, not a live
+  # connection; but having a syntactically valid URL prevents any URL-
+  # parser code-path from throwing before the value is actually needed).
+  DATABASE_URL: postgresql://ci:ci@localhost:5432/ci
+
 jobs:
   # ── Fast gate: every pull request ─────────────────────────────────
   lint-unit:
     name: lint-unit
     runs-on: ubuntu-latest
-    timeout-minutes: 10
+    timeout-minutes: 15
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -56,7 +64,7 @@ jobs:
       - name: Lint
         run: npm run lint
 
-      # 316 unit tests — pure functions + mocked-route tests, no DB.
+      # 462 unit tests — pure functions + mocked-route tests, no DB.
       - name: Unit tests
         run: npm test
 

@@ -36,7 +36,7 @@ import { AssistantApp } from './AssistantApp'
 
 export const CANVIX_APPS: CanvixApp[] = [
   // AI apps first (canva 2026: “Canva AI” is the flagship surface)
-  { id: 'assistant', name: 'Canvix AI', desc: 'Chat copilot — copy, palettes, images, translate', icon: Bot, color: '#7630D7', content: AssistantApp },
+  { id: 'assistant', name: 'AskUI', desc: 'Chat copilot — copy, palettes, images, translate', icon: Bot, color: '#7630D7', content: AssistantApp },
   { id: 'magic-write', name: 'Magic Write', desc: 'AI copy — headlines, taglines & captions', icon: Wand2, color: '#9B6BFF', content: MagicWriteApp },
   { id: 'ai-image', name: 'AI image generator', desc: 'Turn a prompt into a design-ready image', icon: ImageIcon, color: '#02C0CC', content: AIImageApp },
   { id: 'charts', name: 'Charts', desc: 'Bar, line & donut charts as editable shapes', icon: BarChart3, color: '#7630D7', content: ChartsApp },

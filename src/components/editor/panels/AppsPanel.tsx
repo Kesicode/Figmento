@@ -23,9 +23,9 @@ export function AppsPanel() {
           ))}
           <div className="col-span-2 mt-1 rounded-xl border border-dashed border-white/12 p-3 text-center">
             <p className="text-[11px] text-white/40 leading-relaxed">
-              Canvix apps are open —{' '}
+              Figmento apps are open —{' '}
               <a
-                href="https://github.com/mir-ashiq/canvix"
+                href="https://github.com/Kesicode/Canvas.git"
                 target="_blank"
                 rel="noreferrer"
                 className="text-[#02C0CC] hover:underline"

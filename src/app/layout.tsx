@@ -3,11 +3,12 @@ import "./globals.css";
 import { Toaster } from "@/components/ui/toaster";
 
 export const metadata: Metadata = {
-  title: "Canvix — Design anything, free forever",
+  title: "Figmento — Design anything, free forever",
   description:
-    "Canvix is a free & open-source graphic design tool. Create social posts, presentations, posters, logos and more with a drag-and-drop editor that works on desktop, tablet and mobile.",
+    "Figmento is a free & open-source graphic design tool. Create social posts, presentations, posters, logos and more with a drag-and-drop editor that works on desktop, tablet and mobile.",
   keywords: [
-    "canvix",
+    "figmento",
+    "canvas",
     "design tool",
     "open source",
     "canva alternative",
@@ -18,10 +19,10 @@ export const metadata: Metadata = {
   authors: [{ name: "Ashiq Hussain Mir" }],
   icons: { icon: "/canvix.svg" },
   openGraph: {
-    title: "Canvix — Design anything, free forever",
+    title: "Figmento — Design anything, free forever",
     description:
       "Free & open-source graphic design tool. A community-built Canva alternative.",
-    siteName: "Canvix",
+    siteName: "Figmento",
     type: "website",
   },
 };

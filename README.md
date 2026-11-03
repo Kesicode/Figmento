@@ -1,15 +1,15 @@
 <div align="center">
 
-<img src="public/canvix.svg" width="72" alt="Canvix logo" />
+<img src="public/canvix.svg" width="72" alt="Figmento logo" />
 
-# Canvix
+# Figmento
 
 **Design anything. Free for everyone.**
 
 Free & open-source graphic design tool — a community-built [Canva](https://canva.com) alternative.
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-00C4CC.svg)](LICENSE)
-[![CI](https://github.com/mir-ashiq/canvix/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/mir-ashiq/canvix/actions/workflows/ci.yml)
+[![CI](https://github.com/Kesicode/Figmento/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/Kesicode/Figmento/actions/workflows/ci.yml)
 [![Next.js](https://img.shields.io/badge/Next.js%2016-black?logo=next.js)](https://nextjs.org)
 [![React 19](https://img.shields.io/badge/React%2019-61DAFB?logo=react&logoColor=black)](https://react.dev)
 [![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white)](https://typescriptlang.org)
@@ -21,9 +21,9 @@ Free & open-source graphic design tool — a community-built [Canva](https://can
 
 ---
 
-## ✨ What is Canvix?
+## ✨ What is Figmento?
 
-Canvix is a browser-based design tool that lets anyone create social media posts,
+Figmento is a browser-based design tool that lets anyone create social media posts,
 presentations, posters, logos and thumbnails — with a drag-and-drop editor, a
 110-template library and one-click export. It runs entirely on your own infrastructure, stores designs
 in your own database, and exports files locally in your browser. Free accounts
@@ -426,8 +426,8 @@ is right here.
 > **Prerequisites:** [Node.js 20+](https://nodejs.org) (or [Bun](https://bun.sh)), and a PostgreSQL database — a free [Supabase](https://supabase.com) project is the easiest start (any other Postgres works too: Neon, RDS, Docker, local).
 
 ```bash
-git clone https://github.com/mir-ashiq/canvix.git
-cd canvix
+git clone https://github.com/Kesicode/Figmento.git
+cd Figmento
 npm install            # or: bun install
 
 # set up the database (get a connection string first — see below)

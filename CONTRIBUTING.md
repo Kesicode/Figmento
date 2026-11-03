@@ -1,12 +1,12 @@
-# Contributing to Canvix
+# Contributing to Figmento
 
 Thanks for helping build the open-source Canva alternative! 🎨
 
 ## Getting set up
 
 ```bash
-git clone https://github.com/mir-ashiq/canvix.git
-cd canvix
+git clone https://github.com/Kesicode/Figmento.git
+cd Figmento
 npm install
 cp .env.example .env   # then set DATABASE_URL (Supabase / Neon / local Postgres)
 npm run db:setup        # migrations + the 110-template seed, one command

@@ -36,6 +36,7 @@
 //   unaffected.
 
 import { execSync } from 'node:child_process'
+import { cpSync, existsSync } from 'node:fs'
 
 /** run a shell command, inheriting stdio so CI logs stream normally */
 function run(cmd) {
@@ -52,6 +53,10 @@ if (isWorkersBuildsCi) {
 } else {
   run('next build')
   // standalone server layout (Vercel / self-hosted `npm start` / Netlify)
-  run('cp -r .next/static .next/standalone/.next/')
-  run('cp -r public .next/standalone/')
+  if (existsSync('.next/static')) {
+    cpSync('.next/static', '.next/standalone/.next/static', { recursive: true, force: true })
+  }
+  if (existsSync('public')) {
+    cpSync('public', '.next/standalone/public', { recursive: true, force: true })
+  }
 }

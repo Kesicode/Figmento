@@ -15,6 +15,9 @@ import { PrismaClient } from '../generated/prisma/client'
 import { driverConnectionString, normalizeDatabaseUrl } from './db-url'
 
 export function createScriptClient(rawUrl?: string): PrismaClient {
+  if (!process.env.DATABASE_URL && typeof process.loadEnvFile === 'function') {
+    try { process.loadEnvFile('.env') } catch {}
+  }
   // keep the env var normalized too — anything constructed later in the
   // same process (e.g. prisma CLI helpers) sees the Supabase-safe URL
   process.env.DATABASE_URL = normalizeDatabaseUrl(process.env.DATABASE_URL)

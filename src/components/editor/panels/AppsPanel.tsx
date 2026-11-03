@@ -25,7 +25,7 @@ export function AppsPanel() {
             <p className="text-[11px] text-white/40 leading-relaxed">
               Figmento apps are open —{' '}
               <a
-                href="https://github.com/Kesicode/Canvas.git"
+                href="https://github.com/Kesicode/Figmento.git"
                 target="_blank"
                 rel="noreferrer"
                 className="text-[#02C0CC] hover:underline"

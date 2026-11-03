@@ -153,7 +153,7 @@ export function Landing() {
             <a href="#opensource" className="px-3 py-2 rounded-lg hover:bg-black/5 hover:text-foreground transition">Open source</a>
           </div>
           <div className="flex items-center gap-2">
-            <a href="https://github.com/Kesicode/Canvas.git" target="_blank" rel="noreferrer">
+            <a href="https://github.com/Kesicode/Figmento.git" target="_blank" rel="noreferrer">
               <Button variant="ghost" size="sm" className="rounded-full gap-1.5">
                 <Github size={16} /> <span className="hidden sm:inline">GitHub</span>
               </Button>
@@ -193,7 +193,7 @@ export function Landing() {
               <Button size="lg" className="btn-brand-gradient rounded-full px-8 text-base h-12 gap-2" onClick={goDashboard}>
                 Start designing — it&apos;s free <ArrowRight size={18} />
               </Button>
-              <a href="https://github.com/Kesicode/Canvas.git" target="_blank" rel="noreferrer" className="w-full sm:w-auto">
+              <a href="https://github.com/Kesicode/Figmento.git" target="_blank" rel="noreferrer" className="w-full sm:w-auto">
                 <Button size="lg" variant="outline" className="rounded-full px-8 text-base h-12 gap-2 w-full sm:w-auto">
                   <Github size={18} /> Star on GitHub
                 </Button>
@@ -305,7 +305,7 @@ export function Landing() {
                 is exportable at full quality. Self-host it, fork it, improve it.
               </p>
               <div className="mt-8 flex flex-col sm:flex-row gap-3">
-                <a href="https://github.com/Kesicode/Canvas.git" target="_blank" rel="noreferrer">
+                <a href="https://github.com/Kesicode/Figmento.git" target="_blank" rel="noreferrer">
                   <Button size="lg" className="btn-brand-gradient rounded-full px-8 gap-2 h-12 w-full sm:w-auto">
                     <Github size={18} /> View the source
                   </Button>
@@ -330,7 +330,7 @@ export function Landing() {
               </div>
               <div className="font-mono text-xs sm:text-sm leading-relaxed bg-[#17181D] p-5 overflow-x-auto">
                 <div className="text-white/40"># clone &amp; run your own Canva alternative</div>
-                <div><span className="text-[#FF5C8A]">$</span> <span className="text-white/90">git clone https://github.com/Kesicode/Canvas.git</span></div>
+                <div><span className="text-[#FF5C8A]">$</span> <span className="text-white/90">git clone https://github.com/Kesicode/Figmento.git</span></div>
                 <div><span className="text-[#FF5C8A]">$</span> <span className="text-white/90">cd figmento &amp;&amp; bun install</span></div>
                 <div><span className="text-[#FF5C8A]">$</span> <span className="text-white/90">bun run db:push &amp;&amp; bun run db:seed</span></div>
                 <div><span className="text-[#FF5C8A]">$</span> <span className="text-white/90">bun run dev</span></div>
@@ -351,7 +351,7 @@ export function Landing() {
             </span>
           </div>
           <div className="flex items-center gap-5 text-sm text-muted-foreground">
-            <a href="https://github.com/Kesicode/Canvas.git" target="_blank" rel="noreferrer" className="hover:text-foreground transition-colors inline-flex items-center gap-1.5">
+            <a href="https://github.com/Kesicode/Figmento.git" target="_blank" rel="noreferrer" className="hover:text-foreground transition-colors inline-flex items-center gap-1.5">
               <Github size={15} /> GitHub
             </a>
             <a href="#features" className="hover:text-foreground transition-colors">Features</a>

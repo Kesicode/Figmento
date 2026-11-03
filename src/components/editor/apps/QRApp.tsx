@@ -9,7 +9,7 @@ import { AppHeader, type AppPanelProps } from './registry'
 import { toast } from '@/hooks/use-toast'
 
 export function QRApp({ onClose }: AppPanelProps) {
-  const [text, setText] = useState('https://github.com/Kesicode/Canvas.git')
+  const [text, setText] = useState('https://github.com/Kesicode/Figmento.git')
   const [size, setSize] = useState(320)
   const [dark, setDark] = useState('#1F2226')
   const [preview, setPreview] = useState<string | null>(null)

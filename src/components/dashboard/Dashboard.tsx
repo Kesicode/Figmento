@@ -319,7 +319,7 @@ export function Dashboard() {
         ))}
         <div className="mt-auto flex flex-col items-center gap-2">
           <a
-            href="https://github.com/Kesicode/Canvas.git"
+            href="https://github.com/Kesicode/Figmento.git"
             target="_blank"
             rel="noreferrer"
             className="w-9 h-9 rounded-full text-white/50 hover:text-white hover:bg-white/10 flex items-center justify-center transition-colors"
@@ -459,12 +459,12 @@ export function Dashboard() {
                   <Info size={14} /> About Figmento
                 </DropdownMenuItem>
                 <DropdownMenuItem className="gap-2" asChild>
-                  <a href="https://github.com/Kesicode/Canvas.git" target="_blank" rel="noreferrer">
+                  <a href="https://github.com/Kesicode/Figmento.git" target="_blank" rel="noreferrer">
                     <Github size={14} /> GitHub repository
                   </a>
                 </DropdownMenuItem>
                 <DropdownMenuItem className="gap-2" asChild>
-                  <a href="https://github.com/Kesicode/Canvas.git" target="_blank" rel="noreferrer">
+                  <a href="https://github.com/Kesicode/Figmento.git" target="_blank" rel="noreferrer">
                     <Heart size={14} /> Star the project
                   </a>
                 </DropdownMenuItem>
@@ -827,12 +827,12 @@ export function Dashboard() {
             <span>© 2026 · MIT License</span>
           </div>
           <a
-            href="https://github.com/Kesicode/Canvas.git"
+            href="https://github.com/Kesicode/Figmento.git"
             target="_blank"
             rel="noreferrer"
             className="inline-flex items-center gap-1.5 hover:text-white/80 transition-colors"
           >
-            <Github size={14} /> {isMobile ? 'GitHub' : 'github.com/Kesicode/Canvas.git'}
+            <Github size={14} /> {isMobile ? 'GitHub' : 'github.com/Kesicode/Figmento.git'}
           </a>
         </div>
       </footer>
@@ -897,7 +897,7 @@ export function Dashboard() {
               </ul>
             </div>
             <a
-              href="https://github.com/Kesicode/Canvas.git"
+              href="https://github.com/Kesicode/Figmento.git"
               target="_blank"
               rel="noreferrer"
               className="flex items-center gap-2 text-[12px] text-[#02C0CC] hover:underline"
